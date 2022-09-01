@@ -6,15 +6,6 @@
   --white: #fffcf9;
 }
 
-article {
-  height: min-content;
-  max-height: 1024px;
-  min-height: 100px;
-  min-width: min-content;
-  overflow: hidden scroll;
-  width: 100%;
-}
-
 body {
   background-color: var(--white);
   color: var(--black);
@@ -80,6 +71,15 @@ main {
   display: grid;
   grid-auto-rows: 1px;
   grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+section {
+  height: min-content;
+  max-height: 1920px;
+  min-height: 250px;
+  min-width: min-content;
+  overflow: hidden scroll;
+  width: 100%;
 }
 
 table {
