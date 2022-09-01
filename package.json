@@ -1,0 +1,28 @@
+{
+  "name": "mearcstapa-journal",
+  "version": "0.1.0",
+  "description": "A Spring ’83 desktop client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/joshforisha/mearcstapa-journal.git"
+  },
+  "author": "Josh Forisha <josh@forisha.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshforisha/mearcstapa-journal/issues"
+  },
+  "homepage": "https://github.com/joshforisha/mearcstapa-journal#readme",
+  "devDependencies": {
+    "electron": "20.1.0",
+    "electron-reloader": "1.2.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "none"
+  }
+}

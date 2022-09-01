@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A Spring ’83 desktop client" />
+    <meta http-equiv="Content-Security-Policy" content="connect-src https://bogbody.biz; default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'" />
+    <!--
+    <meta name="msapplication-TileColor" content="" />
+    <meta name="theme-color" content="" />
+    -->
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <title>The Mearcstapa Journal</title>
+    <!--
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="icon" href="./icon-16.png" sizes="16x16" />
+    <link rel="icon" href="./icon-32.png" sizes="32x32" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="" />
+    -->
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <button id="OpenSettings" title="Settings">&diams;</button>
+      <h1>The Mearcstapa Journal</h1>
+      <button id="OpenFeed" title="Feed">&equiv;</button>
+    </header>
+    <main></main>
+    <dialog id="Settings">
+      <form method="dialog">
+        <h2>Settings</h2>
+        <button type="close">Close</button>
+      </form>
+    </dialog>
+    <dialog id="Feed">
+      <form method="dialog">
+        <h2>Boards Feed</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Title</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Josh’s Thoughts</td>
+              <td><button>Remove</button></td>
+            </tr>
+          </tbody>
+        </table>
+        <button type="close">Close</button>
+      </form>
+    </dialog>
+  </body>
+</html>
+

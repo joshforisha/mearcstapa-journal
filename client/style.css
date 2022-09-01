@@ -1,0 +1,87 @@
+:root {
+  font-size: 16px;
+
+  /* Colors */
+  --black: #333333;
+  --white: #fffcf9;
+}
+
+article {
+  height: min-content;
+  max-height: 1024px;
+  min-height: 100px;
+  min-width: min-content;
+  overflow: hidden scroll;
+  width: 100%;
+}
+
+body {
+  background-color: var(--white);
+  color: var(--black);
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  margin: 0;
+}
+
+button {
+  background-color: #ddd;
+  border-radius: 0.25rem;
+  border-width: 0;
+  cursor: pointer;
+  font: inherit;
+  min-height: 44px;
+  min-width: 44px;
+}
+
+button:hover {
+  background-color: #ccc;
+}
+
+dialog {
+  max-width: 100%;
+  min-width: 300px;
+}
+
+dialog button[type="close"] {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+dialog h2 {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  opacity: 0.75;
+  text-align: center;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  font-size: 2rem;
+  justify-content: space-between;
+  line-height: 1;
+  padding: 0 0.5rem;
+}
+
+header button {
+  opacity: 0;
+  transition: all 100ms ease-out;
+  transition-property: background-color, opacity;
+}
+
+header:hover button {
+  opacity: 1;
+}
+
+main {
+  display: grid;
+  grid-auto-rows: 1px;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+table {
+  width: 100%;
+}
